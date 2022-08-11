@@ -7,8 +7,20 @@
     padding-bottom: 35px;
 }
 
+.links a:hover{
+    background-color: orangered;   
+}
+
 a {
     padding: 35px;
+}
+
+.first-picture:hover {
+    border: 4px solid orange;
+  transform: rotate(360deg);
+  transition: all 2.0s;
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
 
 .block {
